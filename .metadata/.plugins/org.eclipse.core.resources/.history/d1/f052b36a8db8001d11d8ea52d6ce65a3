@@ -23,7 +23,6 @@ public class Program {
 		//em.persist(p3);
 		
         Pessoa p = em.find(Pessoa.class, 2);
-        em.remove(p);
         
 		em.getTransaction().commit();
         System.out.println("Pronto!");
